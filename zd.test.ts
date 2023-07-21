@@ -12,7 +12,7 @@ test("can get a wallet address", async () => {
     const randomWallet = ethers.Wallet.createRandom();
 
     const provider = await ZeroDevEthersProvider.init("ECDSA", {
-        projectId: process.env.ZERODEV_PROJECT_ID,
+        projectId: process.env.ZERODEV_PROJECT_ID!,
         owner: convertEthersSignerToAccountSigner(randomWallet),
         opts: {
             paymasterConfig: {
