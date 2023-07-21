@@ -1,0 +1,17 @@
+{
+  "name": "zdbugreport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@alchemy/aa-core": "^0.1.0-alpha.17",
+    "@types/jest": "^29.5.3",
+    "@zerodevapp/sdk": "^4.0.2-alpha.16",
+    "ethers": "^6.6.4",
+    "jest": "^29.6.1",
+    "viem": "^1.4.0"
+  }
+}
