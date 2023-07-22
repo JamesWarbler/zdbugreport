@@ -4,10 +4,6 @@ import {
 } from "@zerodevapp/sdk";
 import {ethers} from "ethers";
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(7).toBe(3);
-});
-
 test("can get a wallet address", async () => {
     const randomWallet = ethers.Wallet.createRandom();
 
