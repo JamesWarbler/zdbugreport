@@ -1,0 +1,17 @@
+Script started on Fri Jul 21 17:12:10 2023
+command: yarn test
+[2K[1G[1myarn run v1.22.19[22m
+[2K[1G[2m$ jest[22m
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m./[22m[1mzd.test.ts[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m./[22m[1mzd.test.ts[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m./[22m[1mzd.test.ts[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m./[22m[1mzd.test.ts[22m
+[2K[1G[31merror[39m Command failed with signal "SIGSEGV".
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+
+Script done on Fri Jul 21 17:12:13 2023
