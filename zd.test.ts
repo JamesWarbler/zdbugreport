@@ -6,10 +6,11 @@ import {ethers} from "ethers";
 
 test("can get a wallet address", async () => {
     const randomWallet = ethers.Wallet.createRandom();
-
+    const owner = convertEthersSignerToAccountSigner(randomWallet)
+    console.log(`owner is ${owner}`)
     const provider = await ZeroDevEthersProvider.init("ECDSA", {
         projectId: process.env.ZERODEV_PROJECT_ID!,
-        owner: convertEthersSignerToAccountSigner(randomWallet),
+        owner,
         opts: {
             paymasterConfig: {
                 policy: "VERIFYING_PAYMASTER",
